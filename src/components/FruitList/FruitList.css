@@ -1,0 +1,14 @@
+span {
+color: blue;
+}
+li {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none; 
+    text-indent: 1em; 
+   }
+   li::before {
+    content: '\25ba'; 
+    padding-right: 9px; 
+    color: rgb(203, 54, 54);  
+   }
