@@ -12,3 +12,20 @@ li {
     padding-right: 9px; 
     color: rgb(203, 54, 54);  
    }
+   li {
+    background: #ddd;
+    border: 1px solid #ddd;
+    margin: 5px;
+    width: 210px;
+    list-style-type: none; 
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .menu li > a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+  }
